@@ -17,6 +17,7 @@
 body {
 	background-color: rebeccapurple;
 	line-height: 1.5;
+	color: white;
 }
 li {
 	list-style: none;
@@ -26,6 +27,8 @@ button {
 	padding: 0.8em 1.6em;
 	border: 0;
 	cursor: pointer;
+	color: rebeccapurple;
+	border-radius: 0.3em;
 }
 
 header {
@@ -68,6 +71,7 @@ section {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	border-radius: 2em;
 
 	h3,
 	p {
@@ -83,4 +87,50 @@ section {
 		flex: 1 1 100%;
 		width: 100%;
 	}
+}
+
+.categories {
+	margin-top: 1em;
+	border: 1px solid white;
+}
+
+.gallery {
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+	grid-auto-rows: 14em;
+	gap: 2em;
+	padding: 1em;
+	max-width: 1282px;
+}
+.category {
+	grid-row: auto;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gallery > div {
+	background-position: center;
+	background-size: cover;
+	font-size: 3em;
+	position: relative;
+}
+
+.gallery > div::before {
+	content: "";
+	position: absolute;
+	top: 30%;
+	left: 0;
+	width: 100%;
+	height: 40%;
+	background: rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	pointer-events: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
