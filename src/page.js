@@ -31,14 +31,14 @@ const sectionObjArr = [
 ];
 
 const categoryObjArr = [
-	{ id: 0, title: "appetizers", img: appetizersImg, positioning: "center 65%" },
-	{ id: 1, title: "chicken", img: chickenImg, positioning: "center 35%" },
-	{ id: 2, title: "steaks", img: steaksImg, positioning: "center 10%" },
-	{ id: 3, title: "burgers", img: burgersImg, positioning: "center" },
-	{ id: 4, title: "desserts", img: dessertsImg, positioning: "center 70%" },
+	{ id: 0, title: "Appetizers", img: appetizersImg, positioning: "center 65%" },
+	{ id: 1, title: "Chicken", img: chickenImg, positioning: "center 35%" },
+	{ id: 2, title: "Steaks", img: steaksImg, positioning: "center 10%" },
+	{ id: 3, title: "Burgers", img: burgersImg, positioning: "center" },
+	{ id: 4, title: "Desserts", img: dessertsImg, positioning: "center 70%" },
 	{
 		id: 5,
-		title: "Non-alcoholic Beverages",
+		title: "Beverages",
 		img: nonAlcoholicBeverageImg,
 		positioning: "center 85%",
 	},

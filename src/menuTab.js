@@ -19,6 +19,15 @@ function render(categoryObjArr) {
 		categoryDiv.className = "category";
 		categoryDiv.style = `background-image: url(${category.img}); background-position: ${category.positioning}`;
 
+		const darkLayer = document.createElement("div");
+		darkLayer.className = "dark-layer";
+
+		const title = document.createElement("p");
+		title.textContent = category.title;
+
+		darkLayer.appendChild(title);
+		categoryDiv.appendChild(darkLayer);
+
 		galleryDiv.appendChild(categoryDiv);
 	});
 
