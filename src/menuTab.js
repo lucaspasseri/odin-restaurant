@@ -1,3 +1,5 @@
+import * as styles from "./styles/menuTab.module.css";
+
 function render(categoryObjArr) {
 	const content = document.querySelector("#content");
 	content.innerHTML = "";
@@ -11,16 +13,16 @@ function render(categoryObjArr) {
 	categoriesDiv.className = "categories";
 
 	const galleryDiv = document.createElement("div");
-	galleryDiv.className = "gallery";
+	galleryDiv.className = styles.gallery;
 
 	categoryObjArr.forEach(category => {
 		const categoryDiv = document.createElement("div");
 		categoryDiv.id = category.id;
-		categoryDiv.className = "category";
+		categoryDiv.className = styles.category;
 		categoryDiv.style = `background-image: url(${category.img}); background-position: ${category.positioning}`;
 
 		const darkLayer = document.createElement("div");
-		darkLayer.className = "dark-layer";
+		darkLayer.className = styles.darkLayer;
 
 		const title = document.createElement("p");
 		title.textContent = category.title;

@@ -1,7 +1,4 @@
-import "./styles.css";
-import greeting from "./greeting";
+import "./styles/global.css";
 import init from "./page";
-
-console.log(greeting);
 
 init();

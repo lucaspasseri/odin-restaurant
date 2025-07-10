@@ -1,0 +1,32 @@
+.homeTab {
+	section {
+		min-height: 20em;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		position: relative;
+		background-image: url("../imgs/rounded_placeholder.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		border-radius: 2em;
+		box-shadow: var(--shadow);
+
+		h3,
+		p {
+			position: absolute;
+			color: rebeccapurple;
+		}
+
+		h3 {
+			top: 2.5em;
+		}
+
+		> div {
+			flex: 1 1 100%;
+			width: 100%;
+		}
+	}
+}

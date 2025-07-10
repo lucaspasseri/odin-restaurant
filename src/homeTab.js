@@ -1,5 +1,8 @@
+import * as styles from "./styles/homeTab.module.css";
+
 function render(sectionObjArr) {
 	const content = document.querySelector("#content");
+	content.className = styles.homeTab;
 	content.innerHTML = "";
 
 	const h2 = document.createElement("h2");
