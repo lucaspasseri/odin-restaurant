@@ -5,8 +5,11 @@ import burgersImg from "./imgs/foodCategory/burgers.jpg";
 import dessertsImg from "./imgs/foodCategory/desserts.jpg";
 import nonAlcoholicBeverageImg from "./imgs/foodCategory/non-alcoholic.jpg";
 import cocktailImg from "./imgs/foodCategory/cocktail.jpg";
-import restaurantBuilding from "./imgs/aboutSection/restaurant-building.png";
-import restaurantMenu from "./imgs/aboutSection/restaurant-menu.jpg";
+
+import restaurantHistory from "./imgs/aboutSection/fire.jpg";
+import restaurantMenu from "./imgs/aboutSection/menu.jpg";
+import restaurantOpen from "./imgs/aboutSection/open.jpg";
+import restaurantLocation from "./imgs/aboutSection/location.jpg";
 
 const tabContent = {
 	homeSectionArray: [
@@ -19,13 +22,13 @@ const tabContent = {
 		{
 			id: 1,
 			title: "Promotions",
-			paragraph: "(About this delicious food)",
+			paragraph: "(About this amazing promotion)",
 			contentDivClassName: "promotions-content",
 		},
 		{
 			id: 2,
 			title: "Popular",
-			paragraph: "(About this delicious food)",
+			paragraph: "(About the most requested)",
 			contentDivClassName: "popular-content",
 		},
 	],
@@ -53,8 +56,8 @@ const tabContent = {
 			title: "OUR STORY",
 			subtitle: "Made with love and lot of sauce.",
 			text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sequi distinctio saepe delectus nesciunt, sunt ipsam veniam consectetur minima, aliquam non facere rem placeat laborum pariatur provident! Impedit, dolorem consectetur?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ad error cum possimus corporis magni id facilis maxime molestiae, ut libero ducimus et ex, minus laboriosam enim delectus veritatis modi.",
-			img: restaurantBuilding,
-			imgAlt: "Odin Restaurant Building",
+			img: restaurantHistory,
+			imgAlt: "Odin Restaurant Story",
 		},
 		{
 			title: "OUR MENU",
@@ -64,18 +67,18 @@ const tabContent = {
 			imgAlt: "Our Menu",
 		},
 		{
-			title: "OUR SCHEDULES",
+			title: "OUR OPENING HOURS",
 			subtitle: "Made with love and lot of sauce.",
 			text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sequi distinctio saepe delectus nesciunt, sunt ipsam veniam consectetur minima, aliquam non facere rem placeat laborum pariatur provident! Impedit, dolorem consectetur?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ad error cum possimus corporis magni id facilis maxime molestiae, ut libero ducimus et ex, minus laboriosam enim delectus veritatis modi.",
-			img: restaurantBuilding,
-			imgAlt: "Odin Restaurant Building",
+			img: restaurantOpen,
+			imgAlt: "Odin Restaurant Opening Hours",
 		},
 		{
 			title: "OUR LOCATION",
 			subtitle: "Made with love and lot of sauce.",
 			text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sequi distinctio saepe delectus nesciunt, sunt ipsam veniam consectetur minima, aliquam non facere rem placeat laborum pariatur provident! Impedit, dolorem consectetur?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ad error cum possimus corporis magni id facilis maxime molestiae, ut libero ducimus et ex, minus laboriosam enim delectus veritatis modi.",
-			img: restaurantBuilding,
-			imgAlt: "Odin Restaurant Building",
+			img: restaurantLocation,
+			imgAlt: "Odin Restaurant Location",
 		},
 	],
 };

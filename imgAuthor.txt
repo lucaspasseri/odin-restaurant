@@ -11,4 +11,11 @@ burgers:Foto de <a href="https://unsplash.com/pt-br/@amir_v_ali?utm_content=cred
 dessert: Foto de <a href="https://unsplash.com/pt-br/@alexandermils?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexander Mils</a> na <a href="https://unsplash.com/pt-br/fotografias/fatia-de-torta-de-mirtilo-no-prato-aiIANaSK9DQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 cocktail: Foto de <a href="https://unsplash.com/pt-br/@clo_wd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clovis Wood</a> na <a href="https://unsplash.com/pt-br/fotografias/liquido-laranja-em-vidro-de-coquetel-transparente-FT1PJqW0qtE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-            
+
+
+Menu: Foto de <a href="https://unsplash.com/pt-br/@zoshuacolah?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Zoshua Colah</a> na <a href="https://unsplash.com/pt-br/fotografias/o-menu-a-beira-mar-exibe-varias-opcoes-de-comida-dNZg0LvByFo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+Open: Foto de <a href="https://unsplash.com/pt-br/@introspectivedsgn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Erik Mclean</a> na <a href="https://unsplash.com/pt-br/fotografias/sinalizacao-de-coca-cola-vermelha-e-branca-mfcVLqfUvOU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Fire: Foto de <a href="https://unsplash.com/pt-br/@johnathanmphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Johnathan Macedo</a> na <a href="https://unsplash.com/pt-br/fotografias/homem-no-cozimento-branco-do-uniforme-do-chef-4NQEvxW2_4w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+location: Foto de <a href="https://unsplash.com/pt-br/@hjkp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">henry perks</a> na <a href="https://unsplash.com/pt-br/fotografias/pessoa-segurando-smartphone-preto-BJXAxQ1L7dI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                        
