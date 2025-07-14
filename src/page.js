@@ -1,7 +1,7 @@
-import renderHome from "./homeTab";
-import renderMenu from "./menuTab";
-import renderAbout from "./aboutTab";
-import tabContent from "./constants";
+import renderHome from "./tabs/homeTab";
+import renderMenu from "./tabs/menuTab";
+import renderAbout from "./tabs/aboutTab";
+import tabContent from "./tabs/constants";
 
 function init() {
 	const homeBtn = document.querySelector("#home-btn");

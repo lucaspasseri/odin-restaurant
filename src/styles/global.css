@@ -2,12 +2,13 @@
 	--shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
 		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 	--nav-gap: 4em;
+	background-color: rebeccapurple;
 }
 
 @media (max-width: 660px) {
 	:root {
 		--nav-gap: 1.5em;
-		background-color: red;
+		height: 100%;
 	}
 }
 
@@ -32,6 +33,7 @@ body {
 	line-height: 1.5;
 	color: white;
 }
+
 li {
 	list-style: none;
 }
@@ -49,11 +51,18 @@ button {
 header {
 	display: flex;
 	min-height: 5em;
-	padding: 1em;
+	padding: 1em 2em;
 	gap: 1em;
 	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
 		rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
 		rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+	> div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1em;
+	}
 }
 
 nav {
@@ -61,15 +70,5 @@ nav {
 	ul {
 		display: flex;
 		gap: var(--nav-gap);
-	}
-}
-
-#content {
-	padding: 1em;
-	ul {
-		padding: 2em 4em;
-		display: flex;
-		flex-direction: column;
-		gap: 1.5em;
 	}
 }
