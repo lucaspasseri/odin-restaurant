@@ -1,9 +1,19 @@
+:root {
+	--ul-padding: 2em 4em;
+}
+
+@media (max-width: 845px) {
+	:root {
+		--ul-padding: 2em;
+	}
+}
+
 .aboutTab {
 	padding: 1.5em 2em;
 	min-height: calc(100vh - 168px);
 
 	ul {
-		padding: 2em 4em;
+		padding: var(--ul-padding);
 		display: flex;
 		flex-direction: column;
 	}

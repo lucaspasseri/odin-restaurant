@@ -48,10 +48,6 @@ class Carousel {
 			this.#currentIndex += 1;
 		}
 
-		const className = `.${this.#id}-item`;
-
-		console.log(className);
-
 		const items = document.getElementsByClassName(`item:${this.#id}`);
 		const index = this.#currentIndex;
 
@@ -72,11 +68,19 @@ function createCarousel(items) {
 
 	const leftBtn = document.createElement("button");
 	leftBtn.className = styles.left;
-	leftBtn.textContent = "⏴";
+
+	const pLeft = document.createElement("p");
+	pLeft.textContent = "⏴";
+
+	leftBtn.appendChild(pLeft);
 
 	const rightBtn = document.createElement("button");
 	rightBtn.className = styles.right;
-	rightBtn.textContent = "⏵";
+
+	const pRight = document.createElement("p");
+	pRight.textContent = "⏵";
+
+	rightBtn.appendChild(pRight);
 
 	leftBtn.addEventListener("click", () => {
 		carousel.goLeft();
@@ -109,7 +113,6 @@ function createCarousel(items) {
 	});
 
 	carouselContainer.append(leftBtn, ul, rightBtn);
-	console.log({ carousel });
 
 	return carouselContainer;
 }
