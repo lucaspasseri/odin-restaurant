@@ -65,43 +65,29 @@ const tabContent = {
 				{
 					id: 0,
 					title: "Sed ut perspiciatis unde omnis iste natus.",
-					buttonTitle: "Hot promotion",
+					buttonTitle: "Buy now",
 					img: promo1,
 				},
 				{
 					id: 1,
 					title: "Sed ut perspiciatis unde omnis iste natus.",
-					buttonTitle: "Hot promotion",
+					buttonTitle: "Buy now",
 					img: promo2,
 				},
 				{
 					id: 3,
 					title: "Sed ut perspiciatis unde omnis iste natus.",
-					buttonTitle: "Hot promotion",
+					buttonTitle: "Buy now",
 					img: promo3,
 				},
 				{
 					id: 4,
 					title: "Sed ut perspiciatis unde omnis iste natus.",
-					buttonTitle: "Hot promotion",
+					buttonTitle: "Buy now",
 					img: promo4,
 				},
 			],
 		},
-		// {
-		// 	id: 2,
-		// 	title: "Popular",
-		// 	paragraph: "Buy now",
-		// 	contentDivClassName: "popular-content",
-		// 	carouselItems: [
-		// 		{ id: 0, title: "aaa" },
-		// 		{ id: 1, title: "bbb" },
-		// 		{ id: 0, title: "ccc" },
-		// 		{ id: 0, title: "ddd" },
-		// 		{ id: 0, title: "eee" },
-		// 		{ id: 0, title: "fff" },
-		// 	],
-		// },
 	],
 
 	menuCategoryArray: [
