@@ -1,5 +1,6 @@
 .aboutTab {
 	padding: 1.5em 2em;
+	min-height: calc(100vh - 168px);
 
 	ul {
 		padding: 2em 4em;

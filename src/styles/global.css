@@ -20,7 +20,7 @@
 	padding: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 754px) {
 	header {
 		h1 {
 			display: none;
@@ -29,7 +29,6 @@
 }
 
 body {
-	background-color: rebeccapurple;
 	line-height: 1.5;
 	color: white;
 }
@@ -46,6 +45,7 @@ button {
 	border-radius: 0.3em;
 	box-shadow: var(--shadow);
 	font-weight: bold;
+	font-size: 1.1em;
 }
 
 header {
@@ -61,7 +61,7 @@ header {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 1em;
+		gap: 2em;
 	}
 }
 
